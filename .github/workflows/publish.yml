@@ -17,12 +17,11 @@ jobs:
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
-        run: ./gradlew publishLocal
+        run: ./gradlew publish
       - name: debug
-        run: |
-          ls -a -r
+        run: ls -a -R
       - name: capture maven repo
         uses: actions/upload-artifact@v3
         with:
           name: Maven-Repo
-          path: ~/.m2/repository/
+          path: ./repo/
