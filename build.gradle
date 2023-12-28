@@ -84,14 +84,4 @@ publishing {
 			from components.java
 		}
 	}
-
-	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
-	repositories {
-		mavenDeployer {
-            		repository ( url: "file://localhost${project.projectDir}/repo" )
-            		pom.version = "1.0.0"
-            		pom.artifactId = "chemistrylab"
-            		pom.groupId = "cph.chemistrylab"
-        	}
-	}
 }
