@@ -17,10 +17,7 @@ jobs:
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
-        run: |
-          ./gradlew GenerateMavenPom
-          ./gradlew PublishToMavenRepository
-          ./gradlew PublishToMavenLocal
+        run: ./gradlew PublishToMavenLocal
       - name: debug
         run: |
           ls -a -r
