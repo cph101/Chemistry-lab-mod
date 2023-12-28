@@ -18,6 +18,12 @@ jobs:
         run: chmod +x ./gradlew
       - name: build
         run: ./gradlew publishToMavenLocal
+      - name: debug
+        run: |
+          ls -a
+          cd .m2/
+          echo 'Entered m2 directory'
+          ls -a
       - name: capture maven repo
         uses: actions/upload-artifact@v3
         with:
