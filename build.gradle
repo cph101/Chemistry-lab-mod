@@ -1,7 +1,6 @@
 plugins {
 	id 'fabric-loom' version '1.4-SNAPSHOT'
 	id 'maven-publish'
-	id "io.deepmedia.tools.deployer" version "0.9.0"
 }
 
 version = project.mod_version
@@ -79,13 +78,37 @@ jar {
 }
 
 // configure the maven publication
-uploadArchives {
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+            pom.version = version
+            pom.groupId = group
+            pom.artifactId = archivesBaseName
+
+            // Add any necessary customizations to the POM file here.
+        }
+    }
+
     repositories {
-        mavenDeployer {
-            repository ( url: "file://localhost${project.projectDir}/repo" )
-            pom.version = "${project.mod_version}"
-            pom.artifactId = "${project.archives_base_name}"
-            pom.groupId = "${project.maven_group}"
+        maven {
+            url uri("${buildDir}/repo")
         }
     }
 }
+
+// ... other configurations ...
+
+// Add a task to run the publication.
+task publishLocal(dependsOn: 'publish', type: Copy) {
+    from("${buildDir}/publications/${publicationName}/${archivesBaseName}-${version}.jar")
+    into("${buildDir}/repo")
+}
+
+// Add a task to clean the local Maven repository.
+task cleanLocalRepo(type: Delete) {
+    delete fileTree("${buildDir}/repo")
+}
+
+check.dependsOn cleanLocalRepo
+publishLocal.dependsOn check
