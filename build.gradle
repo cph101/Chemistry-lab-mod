@@ -1,6 +1,7 @@
 plugins {
 	id 'fabric-loom' version '1.4-SNAPSHOT'
 	id 'maven-publish'
+	id "io.deepmedia.tools.deployer" version "0.9.0"
 }
 
 version = project.mod_version
@@ -78,10 +79,13 @@ jar {
 }
 
 // configure the maven publication
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-          from components.java
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository ( url: "file://localhost${project.projectDir}/repo" )
+            pom.version = "${project.mod_version}"
+            pom.artifactId = "${project.archives_base_name}"
+            pom.groupId = "${project.maven_group}"
         }
-     }
+    }
 }
