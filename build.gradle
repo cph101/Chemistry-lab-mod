@@ -79,31 +79,9 @@ jar {
 
 // configure the maven publication
 publishing {
-    publications {
-        maven(MavenPublication) {
-            from components.java
-        }
-    }
-
-    repositories {
-        maven {
-            url uri("${buildDir}/repo")
-        }
-    }
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+		}
+	}
 }
-
-// ... other configurations ...
-
-// Add a task to run the publication.
-task publishLocal(dependsOn: 'publish', type: Copy) {
-    from("${buildDir}/publications/${publicationName}/${archivesBaseName}-${version}.jar")
-    into("${buildDir}/repo")
-}
-
-// Add a task to clean the local Maven repository.
-task cleanLocalRepo(type: Delete) {
-    delete fileTree("${buildDir}/repo")
-}
-
-check.dependsOn cleanLocalRepo
-publishLocal.dependsOn check
