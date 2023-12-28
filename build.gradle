@@ -82,10 +82,6 @@ publishing {
     publications {
         maven(MavenPublication) {
             from components.java
-            pom.version = "${project.mod_version}"
-            pom.groupId = "${project.maven_group}"
-            pom.artifactId = "${project.archives_base_name}"
-            // Add any necessary customizations to the POM file here.
         }
     }
 
