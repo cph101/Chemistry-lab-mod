@@ -23,14 +23,17 @@ jobs:
           mkdir repository
           cd repository/
           mkdir cph
-      #- name: Download artifact
-       # id: download-artifact
-     #   uses: dawidd6/action-download-artifact@v3
-     #   with:
-      #    workflow: publish.yml
-        #  path: /home/runner/.m2/repository/cph/
-      #- name: rename dir
-        #run: mv maven-repo chemistrylab
+      - name: Download artifact
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          workflow: publish.yml
+          path: /home/runner/.m2/repository/cph/
+      - name: rename dir
+        run: |
+          cd /home/runner/.m2/repository/cph/
+          mv maven-repo/chemistrylab/chemistrylab chemistrylab
+          rm -r maven-repo
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
