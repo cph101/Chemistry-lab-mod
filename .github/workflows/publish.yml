@@ -18,7 +18,13 @@ jobs:
           java-version: 17
           distribution: 'microsoft'
       - name: Make way
-        run: mkdir /home/runner/.m2/repository/cph
+        run: |
+          cd /home/runner/
+          mkdir .m2
+          cd .m2/
+          mkdir repository
+          cd repository/
+          mkdir cph
       - name: Download artifact
         id: download-artifact
         uses: dawidd6/action-download-artifact@v3
