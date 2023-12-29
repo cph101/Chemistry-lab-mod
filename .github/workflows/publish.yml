@@ -24,4 +24,4 @@ jobs:
       - name: debug
         run: |
           cd /home/runner/.m2/
-          la -a -R
+          ls -a -R
