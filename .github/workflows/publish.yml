@@ -17,6 +17,18 @@ jobs:
         with:
           java-version: 17
           distribution: 'microsoft'
+      - name: Make way
+        run: mkdir /home/runner/.m2/repository/cph
+      - name: Download artifact
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          workflow: publish.yml
+          path: /home/runner/.m2/repository/cph/
+      - name: debug
+        run: |
+          cd /home/runner/.m2/repository/cph/
+          ls -a -R
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
