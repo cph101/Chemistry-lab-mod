@@ -19,8 +19,15 @@ jobs:
           distribution: 'microsoft'
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
-      - name: Create local maven repo
-        run: mkdir localmaven
+      - name: Configure maven deploy settings
+        uses: s4u/maven-settings-action@v2.6.0
+        with:
+          servers: |
+                [{
+                  "id": "reposilite-repository",
+                  "username": "${{ secrets.MAVEN_NAME }}",
+                  "password": "${{ secrets.MAVEN_SECRET }}"
+                }]
       - name: build
         run: ./gradlew build publish
         env:
