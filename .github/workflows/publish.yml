@@ -31,4 +31,4 @@ jobs:
       - name: debug
         run: |
           cd ./localmaven/
-          la -a -r
+          ls -a -r
