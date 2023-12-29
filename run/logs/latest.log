@@ -1,0 +1,195 @@
+[17:21:55] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.15.3
+[17:21:56] [main/INFO] (FabricLoader) Loading 49 mods:
+	- chemistrylab 1.0.0
+	- fabric-api 0.77.0+1.19.2
+	- fabric-api-base 0.4.15+8f4e8eb390
+	- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	- fabric-biome-api-v1 9.1.1+16f1e31390
+	- fabric-block-api-v1 1.0.2+e415d50e90
+	- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	- fabric-command-api-v2 2.2.1+413cbbc790
+	- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	- fabric-data-generation-api-v1 5.3.9+413cbbc790
+	- fabric-dimensions-v1 2.1.35+0d0f210290
+	- fabric-entity-events-v1 1.5.4+9244241690
+	- fabric-events-interaction-v0 0.4.34+562bff6e90
+	- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	- fabric-gametest-api-v1 1.1.8+4d0d570390
+	- fabric-item-api-v1 1.6.6+b7d1888890
+	- fabric-item-groups-v0 0.3.39+9244241690
+	- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	- fabric-loom-native-support 1.0.1
+	- fabric-loot-api-v2 1.1.13+83a8659290
+	- fabric-message-api-v1 5.0.7+93d8cb8290
+	- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	- fabric-models-v0 0.3.21+c6af733c90
+	- fabric-networking-api-v1 1.2.12+def3f86d90
+	- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	- fabric-particles-v1 1.1.0+ee641e7390
+	- fabric-recipe-api-v1 1.0.2+413cbbc790
+	- fabric-registry-sync-v0 0.9.33+9244241690
+	- fabric-renderer-api-v1 1.2.1+1adbf27790
+	- fabric-renderer-indigo 0.8.0+1adbf27790
+	- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	- fabric-rendering-v1 1.13.0+526f2c6790
+	- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	- fabric-screen-api-v1 1.0.32+4d0d570390
+	- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
+	- fabric-sound-api-v1 1.0.2+c4f28df590
+	- fabric-textures-v0 1.0.24+aeb40ebe90
+	- fabric-transfer-api-v1 2.1.6+413cbbc790
+	- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+	- fabricloader 0.15.3
+	- java 19
+	- minecraft 1.19.2
+	- mixinextras 0.3.2
+[17:21:56] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/christianhiemstra/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[17:21:56] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:21:56] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[17:21:56] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[17:21:57] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[17:21:59] [main/INFO] (Minecraft) Building optimized datafixer
+[17:22:02] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:22:03] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:155) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[authlib-3.11.49.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:712) [minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:516) [minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:56) [minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) [fabric-loader-0.15.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.15.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.15.3.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.11.49.jar:?]
+	... 10 more
+[17:22:03] [Render thread/INFO] (Minecraft) Setting user: Player914
+[17:22:03] [Render thread/INFO] (chemistrylab) Chemistry lab initialized! Hi there ;)
+[17:22:03] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[17:22:03] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[17:22:05] [Worker-Main-9/ERROR] (Minecraft) Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.client.util.ProfileKeys.fetchKeyPair(ProfileKeys.java:176) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.util.ProfileKeys.method_44291(ProfileKeys.java:80) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[17:22:05] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Convention Tags, Fabric Models (v0), Fabric API Base, Chemistrylab, Fabric Recipe API (v1), Fabric Game Test API (v1), Fabric Rendering (v1), Fabric Key Binding API (v1), Fabric Game Rule API (v1), Fabric Rendering Fluids (v1), Fabric Mining Level API (v1), Fabric Networking API (v1), Fabric Item Groups (v0), Fabric Entity Events (v1), Fabric Sound API (v1), Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Registry Sync (v0), Fabric Resource Loader (v0), Fabric BlockRenderLayer Registration (v1), Fabric Block API (v1), Fabric Particles (v1), Fabric Lifecycle Events (v1), Fabric Content Registries (v0), Fabric Transfer API (v1), Fabric Resource Conditions API (v1), Fabric Object Builder API (v1), Fabric Rendering Data Attachment (v1), Fabric Renderer API (v1), Fabric Textures (v0), Fabric Loot API (v2), Fabric Biome API (v1), Fabric Transitive Access Wideners (v1), Fabric Message API (v1), Fabric Item API (v1), Fabric Loader, Fabric API, Fabric Client Tags, Fabric Events Interaction (v0), Fabric API Lookup API (v1), Fabric Dimensions API (v1), Fabric Renderer - Indigo, Fabric Screen API (v1), Fabric Command API (v2), Fabric Screen Handler API (v1))
+[17:22:06] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[17:22:08] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[17:22:08] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17:22:08] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
+[17:22:08] [Render thread/INFO] (Minecraft) Sound engine started
+[17:22:08] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[17:22:08] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[17:22:08] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:22:08] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:22:08] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:22:08] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:22:08] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:22:09] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17:22:09] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:22:09] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:22:09] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:22:17] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[17:22:18] [Render thread/INFO] (Minecraft) Loaded 1179 advancements
+[17:22:19] [Worker-Main-12/ERROR] (Minecraft) Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.client.util.ProfileKeys.fetchKeyPair(ProfileKeys.java:176) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.util.ProfileKeys.method_44291(ProfileKeys.java:80) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[17:22:19] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 2.242 ms
+[17:22:19] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
+[17:22:19] [Server thread/INFO] (Minecraft) Generating keypair
+[17:22:19] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:22:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 19%
+[17:22:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 75%
+[17:22:31] [Render thread/INFO] (Minecraft) Time elapsed: 11472 ms
+[17:22:31] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[17:22:31] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[17:22:33] [Server thread/INFO] (Minecraft) Player914[local:E:e59a5842] logged in with entity id 216 at (11.78098002168453, 76.0, -2.9011265459132947)
+[17:22:33] [Server thread/INFO] (Minecraft) Player914 joined the game
+[17:22:34] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2670ms or 53 ticks behind
+[17:22:37] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[17:22:39] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[17:22:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:22:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:22:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:22:53] [Server thread/INFO] (Minecraft) Stopping server
+[17:22:53] [Server thread/INFO] (Minecraft) Saving players
+[17:22:53] [Server thread/INFO] (Minecraft) Saving worlds
+[17:23:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:23:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:23:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:23:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[17:23:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:23:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:23:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[17:23:02] [Render thread/ERROR] (Minecraft) Reported exception thrown!
+net.minecraft.util.crash.CrashException: mouseClicked event handler
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:505) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:90) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:167) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-common-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:167) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:160) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:299) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1127) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:762) [minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:216) [minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:56) [minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) [fabric-loader-0.15.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.15.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.15.3.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: java.lang.ClassCastException: class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen$LockableSlot cannot be cast to class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen$CreativeSlot (net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen$LockableSlot and net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen$CreativeSlot are in unnamed module of loader net.fabricmc.loader.impl.launch.knot.KnotClassLoader @2038ae61)
+	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.onMouseClick(CreativeInventoryScreen.java:140) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.gui.screen.ingame.HandledScreen.mouseClicked(HandledScreen.java:325) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.mouseClicked(CreativeInventoryScreen.java:389) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:90) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:495) ~[minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar:?]
+	... 17 more

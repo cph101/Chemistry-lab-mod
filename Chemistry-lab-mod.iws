@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f73f31c-75b0-42a5-9a90-4db2f5f4b01b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.5/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-clientOnly-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-clientOnly-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2-sources.lmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-clientOnly-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-clientOnly-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-clientOnly-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-common-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-common-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2-sources.lmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-common-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-common-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapClasspath.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-base-common/0.4.15+8f4e8eb390/fabric-api-base-common-0.4.15+8f4e8eb390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-base-common/0.4.15+8f4e8eb390/fabric-api-base-common-0.4.15+8f4e8eb390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-base-common/0.4.15+8f4e8eb390/fabric-api-base-common-0.4.15+8f4e8eb390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-common/0.77.0+1.19.2/fabric-api-common-0.77.0+1.19.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-common/0.77.0+1.19.2/fabric-api-common-0.77.0+1.19.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-common/0.77.0+1.19.2/fabric-api-common-0.77.0+1.19.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-common/1.6.14+93d8cb8290/fabric-api-lookup-api-v1-common-1.6.14+93d8cb8290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-common/1.6.14+93d8cb8290/fabric-api-lookup-api-v1-common-1.6.14+93d8cb8290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-common/1.6.14+93d8cb8290/fabric-api-lookup-api-v1-common-1.6.14+93d8cb8290.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-biome-api-v1-common/9.1.1+16f1e31390/fabric-biome-api-v1-common-9.1.1+16f1e31390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-biome-api-v1-common/9.1.1+16f1e31390/fabric-biome-api-v1-common-9.1.1+16f1e31390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-biome-api-v1-common/9.1.1+16f1e31390/fabric-biome-api-v1-common-9.1.1+16f1e31390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-block-api-v1-common/1.0.2+e415d50e90/fabric-block-api-v1-common-1.0.2+e415d50e90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-block-api-v1-common/1.0.2+e415d50e90/fabric-block-api-v1-common-1.0.2+e415d50e90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-block-api-v1-common/1.0.2+e415d50e90/fabric-block-api-v1-common-1.0.2+e415d50e90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-client/1.1.25+cafc6e8e90/fabric-blockrenderlayer-v1-client-1.1.25+cafc6e8e90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-client/1.1.25+cafc6e8e90/fabric-blockrenderlayer-v1-client-1.1.25+cafc6e8e90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1-client/1.1.25+cafc6e8e90/fabric-blockrenderlayer-v1-client-1.1.25+cafc6e8e90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1-client/1.0.5+b35fea8390/fabric-client-tags-api-v1-client-1.0.5+b35fea8390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1-client/1.0.5+b35fea8390/fabric-client-tags-api-v1-client-1.0.5+b35fea8390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1-client/1.0.5+b35fea8390/fabric-client-tags-api-v1-client-1.0.5+b35fea8390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-command-api-v2-client/2.2.1+413cbbc790/fabric-command-api-v2-client-2.2.1+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-command-api-v2-client/2.2.1+413cbbc790/fabric-command-api-v2-client-2.2.1+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-command-api-v2-client/2.2.1+413cbbc790/fabric-command-api-v2-client-2.2.1+413cbbc790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-command-api-v2-common/2.2.1+413cbbc790/fabric-command-api-v2-common-2.2.1+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-command-api-v2-common/2.2.1+413cbbc790/fabric-command-api-v2-common-2.2.1+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-command-api-v2-common/2.2.1+413cbbc790/fabric-command-api-v2-common-2.2.1+413cbbc790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-content-registries-v0-common/3.5.2+7c6cd14d90/fabric-content-registries-v0-common-3.5.2+7c6cd14d90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-content-registries-v0-common/3.5.2+7c6cd14d90/fabric-content-registries-v0-common-3.5.2+7c6cd14d90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-content-registries-v0-common/3.5.2+7c6cd14d90/fabric-content-registries-v0-common-3.5.2+7c6cd14d90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1-common/1.3.0+4bc6e26290/fabric-convention-tags-v1-common-1.3.0+4bc6e26290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1-common/1.3.0+4bc6e26290/fabric-convention-tags-v1-common-1.3.0+4bc6e26290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1-common/1.3.0+4bc6e26290/fabric-convention-tags-v1-common-1.3.0+4bc6e26290.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1-common/0.2.8+aeb40ebe90/fabric-crash-report-info-v1-common-0.2.8+aeb40ebe90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1-common/0.2.8+aeb40ebe90/fabric-crash-report-info-v1-common-0.2.8+aeb40ebe90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1-common/0.2.8+aeb40ebe90/fabric-crash-report-info-v1-common-0.2.8+aeb40ebe90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-client/5.3.9+413cbbc790/fabric-data-generation-api-v1-client-5.3.9+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-client/5.3.9+413cbbc790/fabric-data-generation-api-v1-client-5.3.9+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-client/5.3.9+413cbbc790/fabric-data-generation-api-v1-client-5.3.9+413cbbc790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-common/5.3.9+413cbbc790/fabric-data-generation-api-v1-common-5.3.9+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-common/5.3.9+413cbbc790/fabric-data-generation-api-v1-common-5.3.9+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1-common/5.3.9+413cbbc790/fabric-data-generation-api-v1-common-5.3.9+413cbbc790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-dimensions-v1-common/2.1.35+0d0f210290/fabric-dimensions-v1-common-2.1.35+0d0f210290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-dimensions-v1-common/2.1.35+0d0f210290/fabric-dimensions-v1-common-2.1.35+0d0f210290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-dimensions-v1-common/2.1.35+0d0f210290/fabric-dimensions-v1-common-2.1.35+0d0f210290.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-entity-events-v1-client/1.5.4+9244241690/fabric-entity-events-v1-client-1.5.4+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-entity-events-v1-client/1.5.4+9244241690/fabric-entity-events-v1-client-1.5.4+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-entity-events-v1-client/1.5.4+9244241690/fabric-entity-events-v1-client-1.5.4+9244241690.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-entity-events-v1-common/1.5.4+9244241690/fabric-entity-events-v1-common-1.5.4+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-entity-events-v1-common/1.5.4+9244241690/fabric-entity-events-v1-common-1.5.4+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-entity-events-v1-common/1.5.4+9244241690/fabric-entity-events-v1-common-1.5.4+9244241690.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-client/0.4.34+562bff6e90/fabric-events-interaction-v0-client-0.4.34+562bff6e90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-client/0.4.34+562bff6e90/fabric-events-interaction-v0-client-0.4.34+562bff6e90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-client/0.4.34+562bff6e90/fabric-events-interaction-v0-client-0.4.34+562bff6e90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-common/0.4.34+562bff6e90/fabric-events-interaction-v0-common-0.4.34+562bff6e90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-common/0.4.34+562bff6e90/fabric-events-interaction-v0-common-0.4.34+562bff6e90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0-common/0.4.34+562bff6e90/fabric-events-interaction-v0-common-0.4.34+562bff6e90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-client/1.0.24+b6b6abb490/fabric-game-rule-api-v1-client-1.0.24+b6b6abb490-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-client/1.0.24+b6b6abb490/fabric-game-rule-api-v1-client-1.0.24+b6b6abb490.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-client/1.0.24+b6b6abb490/fabric-game-rule-api-v1-client-1.0.24+b6b6abb490.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-common/1.0.24+b6b6abb490/fabric-game-rule-api-v1-common-1.0.24+b6b6abb490-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-common/1.0.24+b6b6abb490/fabric-game-rule-api-v1-common-1.0.24+b6b6abb490.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1-common/1.0.24+b6b6abb490/fabric-game-rule-api-v1-common-1.0.24+b6b6abb490.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1-common/1.1.8+4d0d570390/fabric-gametest-api-v1-common-1.1.8+4d0d570390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1-common/1.1.8+4d0d570390/fabric-gametest-api-v1-common-1.1.8+4d0d570390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1-common/1.1.8+4d0d570390/fabric-gametest-api-v1-common-1.1.8+4d0d570390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-api-v1-client/1.6.6+b7d1888890/fabric-item-api-v1-client-1.6.6+b7d1888890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-api-v1-client/1.6.6+b7d1888890/fabric-item-api-v1-client-1.6.6+b7d1888890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-api-v1-client/1.6.6+b7d1888890/fabric-item-api-v1-client-1.6.6+b7d1888890.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-api-v1-common/1.6.6+b7d1888890/fabric-item-api-v1-common-1.6.6+b7d1888890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-api-v1-common/1.6.6+b7d1888890/fabric-item-api-v1-common-1.6.6+b7d1888890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-api-v1-common/1.6.6+b7d1888890/fabric-item-api-v1-common-1.6.6+b7d1888890.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-groups-v0-client/0.3.39+9244241690/fabric-item-groups-v0-client-0.3.39+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-groups-v0-client/0.3.39+9244241690/fabric-item-groups-v0-client-0.3.39+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-groups-v0-client/0.3.39+9244241690/fabric-item-groups-v0-client-0.3.39+9244241690.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-groups-v0-common/0.3.39+9244241690/fabric-item-groups-v0-common-0.3.39+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-groups-v0-common/0.3.39+9244241690/fabric-item-groups-v0-common-0.3.39+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-item-groups-v0-common/0.3.39+9244241690/fabric-item-groups-v0-common-0.3.39+9244241690.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1-client/1.0.25+5c4fce2890/fabric-key-binding-api-v1-client-1.0.25+5c4fce2890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1-client/1.0.25+5c4fce2890/fabric-key-binding-api-v1-client-1.0.25+5c4fce2890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1-client/1.0.25+5c4fce2890/fabric-key-binding-api-v1-client-1.0.25+5c4fce2890.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-client/2.2.4+1b46dc7890/fabric-lifecycle-events-v1-client-2.2.4+1b46dc7890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-client/2.2.4+1b46dc7890/fabric-lifecycle-events-v1-client-2.2.4+1b46dc7890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-client/2.2.4+1b46dc7890/fabric-lifecycle-events-v1-client-2.2.4+1b46dc7890.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-common/2.2.4+1b46dc7890/fabric-lifecycle-events-v1-common-2.2.4+1b46dc7890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-common/2.2.4+1b46dc7890/fabric-lifecycle-events-v1-common-2.2.4+1b46dc7890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-common/2.2.4+1b46dc7890/fabric-lifecycle-events-v1-common-2.2.4+1b46dc7890.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-loot-api-v2-common/1.1.13+83a8659290/fabric-loot-api-v2-common-1.1.13+83a8659290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-loot-api-v2-common/1.1.13+83a8659290/fabric-loot-api-v2-common-1.1.13+83a8659290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-loot-api-v2-common/1.1.13+83a8659290/fabric-loot-api-v2-common-1.1.13+83a8659290.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-message-api-v1-common/5.0.7+93d8cb8290/fabric-message-api-v1-common-5.0.7+93d8cb8290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-message-api-v1-common/5.0.7+93d8cb8290/fabric-message-api-v1-common-5.0.7+93d8cb8290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-message-api-v1-common/5.0.7+93d8cb8290/fabric-message-api-v1-common-5.0.7+93d8cb8290.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1-common/2.1.24+33fbc73890/fabric-mining-level-api-v1-common-2.1.24+33fbc73890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1-common/2.1.24+33fbc73890/fabric-mining-level-api-v1-common-2.1.24+33fbc73890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1-common/2.1.24+33fbc73890/fabric-mining-level-api-v1-common-2.1.24+33fbc73890.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-models-v0-client/0.3.21+c6af733c90/fabric-models-v0-client-0.3.21+c6af733c90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-models-v0-client/0.3.21+c6af733c90/fabric-models-v0-client-0.3.21+c6af733c90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-models-v0-client/0.3.21+c6af733c90/fabric-models-v0-client-0.3.21+c6af733c90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-client/1.2.12+def3f86d90/fabric-networking-api-v1-client-1.2.12+def3f86d90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-client/1.2.12+def3f86d90/fabric-networking-api-v1-client-1.2.12+def3f86d90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-client/1.2.12+def3f86d90/fabric-networking-api-v1-client-1.2.12+def3f86d90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-common/1.2.12+def3f86d90/fabric-networking-api-v1-common-1.2.12+def3f86d90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-common/1.2.12+def3f86d90/fabric-networking-api-v1-common-1.2.12+def3f86d90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-networking-api-v1-common/1.2.12+def3f86d90/fabric-networking-api-v1-common-1.2.12+def3f86d90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-client/4.2.2+d8ef690890/fabric-object-builder-api-v1-client-4.2.2+d8ef690890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-client/4.2.2+d8ef690890/fabric-object-builder-api-v1-client-4.2.2+d8ef690890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-client/4.2.2+d8ef690890/fabric-object-builder-api-v1-client-4.2.2+d8ef690890.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-common/4.2.2+d8ef690890/fabric-object-builder-api-v1-common-4.2.2+d8ef690890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-common/4.2.2+d8ef690890/fabric-object-builder-api-v1-common-4.2.2+d8ef690890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1-common/4.2.2+d8ef690890/fabric-object-builder-api-v1-common-4.2.2+d8ef690890.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-particles-v1-client/1.1.0+ee641e7390/fabric-particles-v1-client-1.1.0+ee641e7390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-particles-v1-client/1.1.0+ee641e7390/fabric-particles-v1-client-1.1.0+ee641e7390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-particles-v1-client/1.1.0+ee641e7390/fabric-particles-v1-client-1.1.0+ee641e7390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-particles-v1-common/1.1.0+ee641e7390/fabric-particles-v1-common-1.1.0+ee641e7390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-particles-v1-common/1.1.0+ee641e7390/fabric-particles-v1-common-1.1.0+ee641e7390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-particles-v1-common/1.1.0+ee641e7390/fabric-particles-v1-common-1.1.0+ee641e7390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-client/1.0.2+413cbbc790/fabric-recipe-api-v1-client-1.0.2+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-client/1.0.2+413cbbc790/fabric-recipe-api-v1-client-1.0.2+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-client/1.0.2+413cbbc790/fabric-recipe-api-v1-client-1.0.2+413cbbc790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-common/1.0.2+413cbbc790/fabric-recipe-api-v1-common-1.0.2+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-common/1.0.2+413cbbc790/fabric-recipe-api-v1-common-1.0.2+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1-common/1.0.2+413cbbc790/fabric-recipe-api-v1-common-1.0.2+413cbbc790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-client/0.9.33+9244241690/fabric-registry-sync-v0-client-0.9.33+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-client/0.9.33+9244241690/fabric-registry-sync-v0-client-0.9.33+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-client/0.9.33+9244241690/fabric-registry-sync-v0-client-0.9.33+9244241690.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-common/0.9.33+9244241690/fabric-registry-sync-v0-common-0.9.33+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-common/0.9.33+9244241690/fabric-registry-sync-v0-common-0.9.33+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0-common/0.9.33+9244241690/fabric-registry-sync-v0-common-0.9.33+9244241690.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1-client/1.2.1+1adbf27790/fabric-renderer-api-v1-client-1.2.1+1adbf27790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1-client/1.2.1+1adbf27790/fabric-renderer-api-v1-client-1.2.1+1adbf27790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1-client/1.2.1+1adbf27790/fabric-renderer-api-v1-client-1.2.1+1adbf27790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-renderer-indigo-client/0.8.0+1adbf27790/fabric-renderer-indigo-client-0.8.0+1adbf27790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-renderer-indigo-client/0.8.0+1adbf27790/fabric-renderer-indigo-client-0.8.0+1adbf27790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-renderer-indigo-client/0.8.0+1adbf27790/fabric-renderer-indigo-client-0.8.0+1adbf27790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-client/0.3.19+6e0787e690/fabric-rendering-data-attachment-v1-client-0.3.19+6e0787e690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-client/0.3.19+6e0787e690/fabric-rendering-data-attachment-v1-client-0.3.19+6e0787e690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-client/0.3.19+6e0787e690/fabric-rendering-data-attachment-v1-client-0.3.19+6e0787e690.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-common/0.3.19+6e0787e690/fabric-rendering-data-attachment-v1-common-0.3.19+6e0787e690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-common/0.3.19+6e0787e690/fabric-rendering-data-attachment-v1-common-0.3.19+6e0787e690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1-common/0.3.19+6e0787e690/fabric-rendering-data-attachment-v1-common-0.3.19+6e0787e690.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-client/3.0.11+4d0d570390/fabric-rendering-fluids-v1-client-3.0.11+4d0d570390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-client/3.0.11+4d0d570390/fabric-rendering-fluids-v1-client-3.0.11+4d0d570390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-client/3.0.11+4d0d570390/fabric-rendering-fluids-v1-client-3.0.11+4d0d570390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-common/3.0.11+4d0d570390/fabric-rendering-fluids-v1-common-3.0.11+4d0d570390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-common/3.0.11+4d0d570390/fabric-rendering-fluids-v1-common-3.0.11+4d0d570390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-common/3.0.11+4d0d570390/fabric-rendering-fluids-v1-common-3.0.11+4d0d570390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-v1-client/1.13.0+526f2c6790/fabric-rendering-v1-client-1.13.0+526f2c6790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-v1-client/1.13.0+526f2c6790/fabric-rendering-v1-client-1.13.0+526f2c6790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-rendering-v1-client/1.13.0+526f2c6790/fabric-rendering-v1-client-1.13.0+526f2c6790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-common/2.1.2+aae9039d90/fabric-resource-conditions-api-v1-common-2.1.2+aae9039d90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-common/2.1.2+aae9039d90/fabric-resource-conditions-api-v1-common-2.1.2+aae9039d90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-common/2.1.2+aae9039d90/fabric-resource-conditions-api-v1-common-2.1.2+aae9039d90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-client/0.8.4+edbdcddb90/fabric-resource-loader-v0-client-0.8.4+edbdcddb90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-client/0.8.4+edbdcddb90/fabric-resource-loader-v0-client-0.8.4+edbdcddb90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-client/0.8.4+edbdcddb90/fabric-resource-loader-v0-client-0.8.4+edbdcddb90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-common/0.8.4+edbdcddb90/fabric-resource-loader-v0-common-0.8.4+edbdcddb90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-common/0.8.4+edbdcddb90/fabric-resource-loader-v0-common-0.8.4+edbdcddb90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0-common/0.8.4+edbdcddb90/fabric-resource-loader-v0-common-0.8.4+edbdcddb90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-api-v1-client/1.0.32+4d0d570390/fabric-screen-api-v1-client-1.0.32+4d0d570390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-api-v1-client/1.0.32+4d0d570390/fabric-screen-api-v1-client-1.0.32+4d0d570390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-api-v1-client/1.0.32+4d0d570390/fabric-screen-api-v1-client-1.0.32+4d0d570390.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-client/1.3.8+1cc24b1b90/fabric-screen-handler-api-v1-client-1.3.8+1cc24b1b90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-client/1.3.8+1cc24b1b90/fabric-screen-handler-api-v1-client-1.3.8+1cc24b1b90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-client/1.3.8+1cc24b1b90/fabric-screen-handler-api-v1-client-1.3.8+1cc24b1b90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-common/1.3.8+1cc24b1b90/fabric-screen-handler-api-v1-common-1.3.8+1cc24b1b90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-common/1.3.8+1cc24b1b90/fabric-screen-handler-api-v1-common-1.3.8+1cc24b1b90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-common/1.3.8+1cc24b1b90/fabric-screen-handler-api-v1-common-1.3.8+1cc24b1b90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-sound-api-v1-client/1.0.2+c4f28df590/fabric-sound-api-v1-client-1.0.2+c4f28df590-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-sound-api-v1-client/1.0.2+c4f28df590/fabric-sound-api-v1-client-1.0.2+c4f28df590.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-sound-api-v1-client/1.0.2+c4f28df590/fabric-sound-api-v1-client-1.0.2+c4f28df590.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-textures-v0-client/1.0.24+aeb40ebe90/fabric-textures-v0-client-1.0.24+aeb40ebe90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-textures-v0-client/1.0.24+aeb40ebe90/fabric-textures-v0-client-1.0.24+aeb40ebe90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-textures-v0-client/1.0.24+aeb40ebe90/fabric-textures-v0-client-1.0.24+aeb40ebe90.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-client/2.1.6+413cbbc790/fabric-transfer-api-v1-client-2.1.6+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-client/2.1.6+413cbbc790/fabric-transfer-api-v1-client-2.1.6+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-client/2.1.6+413cbbc790/fabric-transfer-api-v1-client-2.1.6+413cbbc790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-common/2.1.6+413cbbc790/fabric-transfer-api-v1-common-2.1.6+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-common/2.1.6+413cbbc790/fabric-transfer-api-v1-common-2.1.6+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1-common/2.1.6+413cbbc790/fabric-transfer-api-v1-common-2.1.6+413cbbc790.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-common/1.3.3+08b73de490/fabric-transitive-access-wideners-v1-common-1.3.3+08b73de490-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-common/1.3.3+08b73de490/fabric-transitive-access-wideners-v1-common-1.3.3+08b73de490.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-common/1.3.3+08b73de490/fabric-transitive-access-wideners-v1-common-1.3.3+08b73de490.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-loom-native-support/1.0.1/fabric-loom-native-support-1.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-loom-native-support/1.0.1/fabric-loom-native-support-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2/net/fabricmc/fabric-loom-native-support/1.0.1/fabric-loom-native-support-1.0.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/unpick-logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/client/client-chemistrylab-refmap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/client/cph/chemistrylab/ChemistrylabClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/client/cph/chemistrylab/mixin/client/ExampleClientMixin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/chemistrylab-refmap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cph/chemistrylab/Chemistrylab.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cph/chemistrylab/ChemistrylabDataGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cph/chemistrylab/mixin/ExampleMixin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/devlibs/chemistrylab-1.0.0-dev.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/chemistrylab-1.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/chemistrylab-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.client.tiny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.main.tiny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc-fabric-loom-native-support-1.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc-fabric-loom-native-support-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-api-0.77.0+1.19.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-api-0.77.0+1.19.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-api-base-0.4.15+8f4e8eb390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-api-base-0.4.15+8f4e8eb390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-api-lookup-api-v1-1.6.14+93d8cb8290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-api-lookup-api-v1-1.6.14+93d8cb8290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-biome-api-v1-9.1.1+16f1e31390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-biome-api-v1-9.1.1+16f1e31390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-block-api-v1-1.0.2+e415d50e90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-block-api-v1-1.0.2+e415d50e90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-blockrenderlayer-v1-1.1.25+cafc6e8e90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-blockrenderlayer-v1-1.1.25+cafc6e8e90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-client-tags-api-v1-1.0.5+b35fea8390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-client-tags-api-v1-1.0.5+b35fea8390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-command-api-v2-2.2.1+413cbbc790-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-command-api-v2-2.2.1+413cbbc790-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-command-api-v2-2.2.1+413cbbc790-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-command-api-v2-2.2.1+413cbbc790-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-command-api-v2-2.2.1+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-command-api-v2-2.2.1+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-content-registries-v0-3.5.2+7c6cd14d90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-content-registries-v0-3.5.2+7c6cd14d90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-convention-tags-v1-1.3.0+4bc6e26290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-convention-tags-v1-1.3.0+4bc6e26290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-crash-report-info-v1-0.2.8+aeb40ebe90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-crash-report-info-v1-0.2.8+aeb40ebe90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-data-generation-api-v1-5.3.9+413cbbc790-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-data-generation-api-v1-5.3.9+413cbbc790-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-data-generation-api-v1-5.3.9+413cbbc790-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-data-generation-api-v1-5.3.9+413cbbc790-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-data-generation-api-v1-5.3.9+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-data-generation-api-v1-5.3.9+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-dimensions-v1-2.1.35+0d0f210290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-dimensions-v1-2.1.35+0d0f210290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-entity-events-v1-1.5.4+9244241690-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-entity-events-v1-1.5.4+9244241690-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-entity-events-v1-1.5.4+9244241690-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-entity-events-v1-1.5.4+9244241690-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-entity-events-v1-1.5.4+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-entity-events-v1-1.5.4+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-events-interaction-v0-0.4.34+562bff6e90-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-events-interaction-v0-0.4.34+562bff6e90-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-events-interaction-v0-0.4.34+562bff6e90-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-events-interaction-v0-0.4.34+562bff6e90-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-events-interaction-v0-0.4.34+562bff6e90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-events-interaction-v0-0.4.34+562bff6e90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-game-rule-api-v1-1.0.24+b6b6abb490-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-game-rule-api-v1-1.0.24+b6b6abb490-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-game-rule-api-v1-1.0.24+b6b6abb490-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-game-rule-api-v1-1.0.24+b6b6abb490-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-game-rule-api-v1-1.0.24+b6b6abb490-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-game-rule-api-v1-1.0.24+b6b6abb490.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-gametest-api-v1-1.1.8+4d0d570390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-gametest-api-v1-1.1.8+4d0d570390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-api-v1-1.6.6+b7d1888890-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-api-v1-1.6.6+b7d1888890-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-api-v1-1.6.6+b7d1888890-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-api-v1-1.6.6+b7d1888890-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-api-v1-1.6.6+b7d1888890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-api-v1-1.6.6+b7d1888890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-groups-v0-0.3.39+9244241690-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-groups-v0-0.3.39+9244241690-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-groups-v0-0.3.39+9244241690-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-groups-v0-0.3.39+9244241690-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-groups-v0-0.3.39+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-item-groups-v0-0.3.39+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-key-binding-api-v1-1.0.25+5c4fce2890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-key-binding-api-v1-1.0.25+5c4fce2890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-2.2.4+1b46dc7890-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-2.2.4+1b46dc7890-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-2.2.4+1b46dc7890-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-2.2.4+1b46dc7890-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-2.2.4+1b46dc7890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-2.2.4+1b46dc7890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-loot-api-v2-1.1.13+83a8659290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-loot-api-v2-1.1.13+83a8659290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-message-api-v1-5.0.7+93d8cb8290-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-message-api-v1-5.0.7+93d8cb8290.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-mining-level-api-v1-2.1.24+33fbc73890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-mining-level-api-v1-2.1.24+33fbc73890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-models-v0-0.3.21+c6af733c90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-models-v0-0.3.21+c6af733c90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-networking-api-v1-1.2.12+def3f86d90-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-networking-api-v1-1.2.12+def3f86d90-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-networking-api-v1-1.2.12+def3f86d90-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-networking-api-v1-1.2.12+def3f86d90-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-networking-api-v1-1.2.12+def3f86d90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-networking-api-v1-1.2.12+def3f86d90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-object-builder-api-v1-4.2.2+d8ef690890-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-object-builder-api-v1-4.2.2+d8ef690890-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-object-builder-api-v1-4.2.2+d8ef690890-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-object-builder-api-v1-4.2.2+d8ef690890-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-object-builder-api-v1-4.2.2+d8ef690890-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-object-builder-api-v1-4.2.2+d8ef690890.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-particles-v1-1.1.0+ee641e7390-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-particles-v1-1.1.0+ee641e7390-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-particles-v1-1.1.0+ee641e7390-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-particles-v1-1.1.0+ee641e7390-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-particles-v1-1.1.0+ee641e7390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-particles-v1-1.1.0+ee641e7390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-recipe-api-v1-1.0.2+413cbbc790-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-recipe-api-v1-1.0.2+413cbbc790-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-recipe-api-v1-1.0.2+413cbbc790-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-recipe-api-v1-1.0.2+413cbbc790-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-recipe-api-v1-1.0.2+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-recipe-api-v1-1.0.2+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-registry-sync-v0-0.9.33+9244241690-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-registry-sync-v0-0.9.33+9244241690-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-registry-sync-v0-0.9.33+9244241690-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-registry-sync-v0-0.9.33+9244241690-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-registry-sync-v0-0.9.33+9244241690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-registry-sync-v0-0.9.33+9244241690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-renderer-api-v1-1.2.1+1adbf27790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-renderer-api-v1-1.2.1+1adbf27790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-renderer-indigo-0.8.0+1adbf27790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-renderer-indigo-0.8.0+1adbf27790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0.3.19+6e0787e690-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0.3.19+6e0787e690-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0.3.19+6e0787e690-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0.3.19+6e0787e690-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0.3.19+6e0787e690-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0.3.19+6e0787e690.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-3.0.11+4d0d570390-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-3.0.11+4d0d570390-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-3.0.11+4d0d570390-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-3.0.11+4d0d570390-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-3.0.11+4d0d570390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-3.0.11+4d0d570390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-v1-1.13.0+526f2c6790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-rendering-v1-1.13.0+526f2c6790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-resource-conditions-api-v1-2.1.2+aae9039d90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-resource-conditions-api-v1-2.1.2+aae9039d90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-0.8.4+edbdcddb90-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-0.8.4+edbdcddb90-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-0.8.4+edbdcddb90-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-0.8.4+edbdcddb90-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-0.8.4+edbdcddb90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-0.8.4+edbdcddb90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-screen-api-v1-1.0.32+4d0d570390-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-screen-api-v1-1.0.32+4d0d570390.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-1.3.8+1cc24b1b90-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-1.3.8+1cc24b1b90-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-1.3.8+1cc24b1b90-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-1.3.8+1cc24b1b90-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-1.3.8+1cc24b1b90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-1.3.8+1cc24b1b90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-sound-api-v1-1.0.2+c4f28df590-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-sound-api-v1-1.0.2+c4f28df590.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-textures-v0-1.0.24+aeb40ebe90-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-textures-v0-1.0.24+aeb40ebe90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-transfer-api-v1-2.1.6+413cbbc790-client-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-transfer-api-v1-2.1.6+413cbbc790-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-transfer-api-v1-2.1.6+413cbbc790-common-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-transfer-api-v1-2.1.6+413cbbc790-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-transfer-api-v1-2.1.6+413cbbc790-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-transfer-api-v1-2.1.6+413cbbc790.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-transitive-access-wideners-v1-1.3.3+08b73de490-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_19_2_1_19_2_build_28_v2.net.fabricmc.fabric-api-fabric-transitive-access-wideners-v1-1.3.3+08b73de490.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/client/chemistrylab.client.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/assets/chemistrylab/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/chemistrylab.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileClientJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/remapJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/sourcesJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cph/chemistrylab/ModItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/chemistrylab/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/java/cph/chemistrylab/ChemistrylabClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/java/cph/chemistrylab/ChemistrylabClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cph/chemistrylab/Chemistrylab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cph/chemistrylab/Chemistrylab.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2aDuvZZrvM648aRR67cRiN391lM" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state />
+    </entry>
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Minecraft Client">
+    <configuration default="true" factoryName="Applet" type="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option enabled="false" name="BuildArtifacts" />
+        <option enabled="true" name="Make" />
+      </method>
+    </configuration>
+    <configuration default="true" name="&lt;template&gt;" selected="false" type="WebApp">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Minecraft Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.fabricmc.devlaunchinjector.Main" />
+      <module name="Chemistry-lab-mod.client" />
+      <option name="VM_PARAMETERS" value="-Dfabric.dli.config=$PROJECT_DIR$/.gradle/loom-cache/launch.cfg -Dfabric.dli.env=client -XstartOnFirstThread -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Minecraft Datagen" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.fabricmc.devlaunchinjector.Main" />
+      <module name="Chemistry-lab-mod.main" />
+      <option name="PROGRAM_PARAMETERS" value="nogui" />
+      <option name="VM_PARAMETERS" value="-Dfabric.dli.config=$PROJECT_DIR$/.gradle/loom-cache/launch.cfg -Dfabric.dli.env=server -Dfabric-api.datagen -Dfabric-api.datagen.output-dir=$PROJECT_DIR$/src/main/generated -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotServer" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/build/datagen" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Minecraft Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.fabricmc.devlaunchinjector.Main" />
+      <module name="Chemistry-lab-mod.main" />
+      <option name="PROGRAM_PARAMETERS" value="nogui" />
+      <option name="VM_PARAMETERS" value="-Dfabric.dli.config=$PROJECT_DIR$/.gradle/loom-cache/launch.cfg -Dfabric.dli.env=server -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotServer" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="UPDATE_RUN_STATUS" value="false" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f73f31c-75b0-42a5-9a90-4db2f5f4b01b" name="Changes" comment="" />
+      <created>1703865703290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703865703290</updated>
+      <workItem from="1703865707310" duration="4570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-c713afbca6/1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2/minecraft-common-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2-sources.jar!/net/minecraft/item/ItemGroup.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
