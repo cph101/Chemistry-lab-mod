@@ -20,7 +20,8 @@ jobs:
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
-        run: ./gradlew build publish --PmyDomainRepositoryUsername={MAVEN_NAME} --PmyDomainRepositoryPassword={MAVEN_SECRET}
-        env:
-          MAVEN_NAME: ${{ secrets.MAVEN_NAME }} # token name
-          MAVEN_SECRET: ${{ secrets.MAVEN_SECRET }} # token secret (password)
+        run: ./gradlew build publishToMavenLocal
+      - name: debug
+        run: |
+          cd /home/runner/.m2/
+          la -a -R
