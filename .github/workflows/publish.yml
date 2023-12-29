@@ -29,8 +29,8 @@ jobs:
      #   with:
       #    workflow: publish.yml
         #  path: /home/runner/.m2/repository/cph/
-      - name: rename dir
-        run: mv maven-repo chemistrylab
+      #- name: rename dir
+        #run: mv maven-repo chemistrylab
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
