@@ -19,9 +19,7 @@ jobs:
           distribution: 'microsoft'
       - name: Make way
         run: |
-          cd /home/runner/
-          mkdir .m2
-          cd .m2/
+          cd /home/runner/.m2/
           mkdir repository
           cd repository/
           mkdir cph
