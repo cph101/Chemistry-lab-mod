@@ -29,7 +29,7 @@ jobs:
                   "password": "${{ secrets.MAVEN_SECRET }}"
                 }]
       - name: build
-        run: ./gradlew build publish
+        run: ./gradlew build publish -PmyDomainRepositoryUsername={MAVEN_NAME} -PmyDomainRepositoryPassword={MAVEN_SECRET}
         env:
           MAVEN_NAME: ${{ secrets.MAVEN_NAME }} # token name
           MAVEN_SECRET: ${{ secrets.MAVEN_SECRET }} # token secret (password)
