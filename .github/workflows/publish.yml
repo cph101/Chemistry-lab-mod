@@ -37,7 +37,7 @@ jobs:
         run: ./gradlew build publishToMavenLocal
       - name: debug
         run: |
-          cd /home/runner/.m2/repository/cph/chemistry-lab/chemistry-lab
+          cd /home/runner/.m2/repository/cph/
           ls -a -R
       - name: upload maven repo as artifact
         uses: actions/upload-artifact@v4
