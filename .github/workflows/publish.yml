@@ -19,17 +19,8 @@ jobs:
           distribution: 'microsoft'
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
-      - name: Configure maven deploy settings
-        uses: s4u/maven-settings-action@v2.6.0
-        with:
-          servers: |
-                [{
-                  "id": "reposilite-repository",
-                  "username": "${{ secrets.MAVEN_NAME }}",
-                  "password": "${{ secrets.MAVEN_SECRET }}"
-                }]
       - name: build
-        run: ./gradlew build publish -PmyDomainRepositoryUsername={MAVEN_NAME} -PmyDomainRepositoryPassword={MAVEN_SECRET}
+        run: ./gradlew build publish --PmyDomainRepositoryUsername={MAVEN_NAME} --PmyDomainRepositoryPassword={MAVEN_SECRET}
         env:
           MAVEN_NAME: ${{ secrets.MAVEN_NAME }} # token name
           MAVEN_SECRET: ${{ secrets.MAVEN_SECRET }} # token secret (password)
