@@ -22,9 +22,13 @@ jobs:
       - name: Create local maven repo
         run: mkdir localmaven
       - name: build
-        run: ./gradlew -Dmaven.repo.local=/localmaven publishToMavenLocal
+        run: ./gradlew -Dmaven.repo.local=/localmaven/ publishToMavenLocal
       - name: Upload local maven repo as artifact
         uses: actions/upload-artifact@v4.0.0
         with:
           name: Maven-local
-          path: ./localmaven
+          path: ./localmaven/
+      - name: debug
+        run: |
+          cd ./localmaven/
+          la -a -r
