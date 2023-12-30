@@ -46,3 +46,12 @@ jobs:
         with:
           name: maven-repo
           path: /home/runner/.m2/repository/cph/chemistrylab/
+      - name: Trigger remote maven fetch
+        run: |
+          curl -X POST 'https://api.github.com/repos/cph101/cph101-maven/dispatches' -H 'Authorization:token ${{secrets.WORKFLOW_TOKEN}}' -H 'Content-Type:application/json' -d '{
+            "event_type": "Import Project",
+            "client_payload": {
+              "project": "Chemistry-lab-mod",
+              "distributionName": "chemistrylab"
+            }
+          }'
