@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "chemistrylab:item/test_tube_solute",
-        "layer1": "chemistrylab:item/test_tube_container"
-    }
-}
