@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "chemistrylab:item/beaker_contents",
+        "layer1": "chemistrylab:item/beaker"
+    }
+}

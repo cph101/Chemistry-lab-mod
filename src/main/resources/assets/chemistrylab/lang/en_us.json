@@ -1,3 +1,5 @@
 {
-  "item.chemistrylab.test_tube": "Filled Beaker"
+  "item.chemistrylab.beaker": "Empty Beaker",
+  "item.chemistrylab.test_tube": "Empty Test Tube",
+  "itemGroup.chemistrylab.chemistry_group": "Chemistry Lab"
 }

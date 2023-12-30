@@ -11,9 +11,13 @@ public class ChemistrylabClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+
 		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
-			return tintIndex == 0 ? 0xfc2803 : -1;
-		}, Item.byRawId(1152));
-		// This might cause a crash when the item is clicked... is it this code doing it?
+			return tintIndex == 0 ? 0x01ABDD : -1;
+		}, ModItems.FILLED_BEAKER);
+
+		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
+			return tintIndex == 0 ? 0x01ABDD : -1;
+		}, ModItems.FILLED_TEST_TUBE);
 	}
 }
