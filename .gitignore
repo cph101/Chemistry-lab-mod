@@ -8,7 +8,8 @@ gradle-app.setting
 .project
 .classpath
 .idea
-**.iml
-**.ipr
-**.iws
+*.iml
+*.ipr
+*.iws
 run
+**..DS_Store
