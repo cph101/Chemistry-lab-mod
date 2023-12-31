@@ -1,5 +1,5 @@
 # Chemistry lab mod
-![Static Badge](https://img.shields.io/badge/Made%20for%20Quilt%20Modloader-4741b0?style=flat)
+<img src="./.github/assets/badges/made-for-quilt.svg" height="21px">
 
 GitHub repo for my in-progress mod
 > [!NOTE]
