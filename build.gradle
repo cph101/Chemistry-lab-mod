@@ -1,6 +1,7 @@
 plugins {
-	id 'fabric-loom' version '1.4-SNAPSHOT'
 	id 'maven-publish'
+	id 'org.quiltmc.loom' version '1.+'
+	id 'io.github.ladysnake.chenille' version '0.11.3'
 }
 
 version = project.mod_version
@@ -11,11 +12,34 @@ base {
 }
 
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
+	maven {
+		name = 'Ladysnake Mods'
+		url = 'https://maven.ladysnake.org/releases'
+	}
+	maven {
+		name = 'TerraformersMC'
+		url = 'https://maven.terraformersmc.com/' // modmenu
+	}
+
+	maven { url "https://maven.willbl.dev/releases" } // not sure why i'd need this but ok
+
+	maven {
+		name = 'Quilt'
+		url = 'https://maven.quiltmc.org/release' // this one is obvious
+	}
+
+	maven {
+		name = 'GitHub'
+		url = 'https://jitpack.io'
+	}
+
+	maven {
+		name "Modrinth"
+		url "https://api.modrinth.com/maven" // idk really
+	}
+
+	maven { url 'https://masa.dy.fi/maven' } // carpet mod
+
 }
 
 loom {
@@ -30,23 +54,18 @@ loom {
 
 }
 
-fabricApi {
-	configureDataGeneration()
-}
-
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
-	// Uncomment the following line to enable the deprecated Fabric API modules. 
-	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
+	modImplementation "org.quiltmc:quilt-loader:quilt_loader"
+	modImplementation "org.quiltmc.quilted-fabric-api:quilted-fabric-api:quilted_fabric_api"
+	implementation "carpet:fabric-carpet:${project.minecraft_version}-${project.carpet_core_version}"
+	modImplementation include("maven.modrinth:midnightlib:${midnightlib_version}-fabric")
 
-	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+	modImplementation include("com.github.Arathain:LodestoneLib-Quilt:${lodestone_version}")
 }
 
 processResources {
@@ -79,16 +98,6 @@ jar {
 
 // configure the maven publication
 publishing {
-  repositories {
-    maven {
-      name = "cph101Maven"
-      url = "https://cph101-maven-repo.cph101.repl.co/releases"
-      credentials(PasswordCredentials)
-      authentication {
-        basic(BasicAuthentication)
-      }
-    }
-  }
   publications {
     maven(MavenPublication) {
       groupId = project.maven_group
