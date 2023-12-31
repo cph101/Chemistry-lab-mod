@@ -1,5 +1,5 @@
 # Chemistry lab mod
-<img src="./.github/assets/badges/made-for-quilt.svg" height="21px">
+<img src="./.github/assets/badges/made-for-quilt.svg" height="21px"> <img src="./.github/assets/badges/forge-coming-soon.svg" height="21px">
 
 GitHub repo for my in-progress mod
 > [!NOTE]
