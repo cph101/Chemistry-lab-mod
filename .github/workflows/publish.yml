@@ -46,9 +46,9 @@ jobs:
     runs-on: macos-latest
     needs: mod-build
     env:
-      mod_name: ${{ needs.mod-build.steps.mod_properties.outputs.archives_base_name }}
-      mc_version: ${{ needs.mod-build.steps.mod_properties.outputs.minecraft_version }}
-      mod_version: ${{ needs.mod-build.steps.mod_properties.outputs.mod_version }}
+      MOD_NAME: ${{ needs.mod-build.steps.mod_properties.outputs.archives_base_name }}
+      MC_VERSION: ${{ needs.mod-build.steps.mod_properties.outputs.minecraft_version }}
+      MOD_VERSION: ${{ needs.mod-build.steps.mod_properties.outputs.mod_version }}
     steps:
       - name: Download build files
         uses: actions/download-artifact@v4.1.0
@@ -57,7 +57,7 @@ jobs:
       - name: debug
         run: |
           mv build/mod-build-files build/libs
-          echo '${{ env.mod_name }}-v${{ env.mod_version }}-${{ env.mc_version }}'
+          echo '$MOD_NAME'
       - name: publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
