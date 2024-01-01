@@ -5,53 +5,14 @@ permissions:
   packages: write
   
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  deploy-github:
+    name: Deploy to GitHub Releases
+    runs-on: macos-latest
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v3
-      - name: validate gradle wrapper
-        uses: gradle/wrapper-validation-action@v1
-      - name: setup JDK 17
-        uses: actions/setup-java@v3
-        with:
-          java-version: 17
-          distribution: 'microsoft'
-      - name: Make way
-        run: |
-          cd /home/runner/.m2/
-          mkdir repository
-          cd repository/
-          mkdir cph
-      - name: Download artifact
-        id: download-artifact
-        uses: dawidd6/action-download-artifact@v3
-        with:
-          workflow: publish.yml
-          path: /home/runner/.m2/repository/cph/
-      - name: rename dir
-        run: |
-          cd /home/runner/.m2/repository/cph/
-          mv maven-repo chemistrylab
-      - name: make gradle wrapper executable
+      - name: Prepare gradle
         run: chmod +x ./gradlew
-      - name: build
-        run: ./gradlew build publishToMavenLocal
-      - name: debug
-        run: |
-          cd /home/runner/.m2/repository/cph/
-          ls -a -R
-      - name: upload maven repo as artifact
-        uses: actions/upload-artifact@v4
+      - name: Publish to github releases
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
-          name: maven-repo
-          path: /home/runner/.m2/repository/cph/chemistrylab/
-      - name: Trigger remote maven fetch
-        run: |
-          curl -X POST 'https://api.github.com/repos/cph101/cph101-maven/dispatches' -H 'Authorization:token ${{secrets.WORKFLOW_TOKEN}}' -H 'Content-Type:application/json' -d '{
-            "event_type": "Import Project",
-            "client_payload": {
-              "project": "Chemistry-lab-mod",
-              "distributionName": "chemistrylab"
-            }
-          }'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      
