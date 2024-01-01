@@ -9,8 +9,19 @@ If you like this mod, please join my discord server by clicking the button below
 [![](https://dcbadge.vercel.app/api/server/qQYfX3sTyj?style=flat)](https://discord.gg/qQYfX3sTyj)
 
 <details>
-  <summary><h3>For developers</h3></summary>
+  <summary><h2>For developers</h2></summary>
   If you would like to use items, blocks and other things in your own mod, you can add Chemistry lab as a gradle dependency using one of the following methods:
 
- 
+ ### Using Jitpack:
+In your `build.gradle` file, make sure you have included the jitpack maven repository, similar as to the following:
+```groovy
+repositories {
+  maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+  implementation 'com.github.cph101:Chemistry-lab-mod:v1.0.1-1.19.2'
+  // 
+}
+```
 </details>
