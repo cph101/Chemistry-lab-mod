@@ -9,6 +9,8 @@ jobs:
     name: Deploy to GitHub Releases
     runs-on: macos-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4.1.1
       - name: Prepare gradle
         run: chmod +x ./gradlew
       - name: Publish to github releases
