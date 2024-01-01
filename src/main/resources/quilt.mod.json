@@ -1,0 +1,41 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "com.cph",
+		"id": "chemistrylab",
+		"version": "${version}",
+		"metadata": {
+			"name": "Chemistry lab",
+			"description": "Adds a semi-realistic representation of chemistry.",
+			"contributors": {
+				"cph101": "Owner"
+			},
+			"contact": {
+				"homepage": "https://www.cph101.com/",
+				"issues": "https://github.com/cph101/Chemistry-lab-mod/issues",
+				"sources": "https://github.com/cph101/Chemistry-lab-mod/issues"
+			},
+			"icon": "assets/example_mod/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "cph.chemistrylab.Chemistrylab",
+			"client": "cph.chemistrylab.ChemistrylabClient"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.2"
+			}
+		]
+	},
+	"mixin": "chemistrylab.mixins.json"
+}
