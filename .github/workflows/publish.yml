@@ -40,11 +40,10 @@ jobs:
       - name: Download build files
         uses: actions/download-artifact@v4.1.0
         with:
-          path: build/libs/
+          path: build/
       - name: debug
         run: |
-          cd build/libs/
-          ls -a -r
+          mv mod-build-files libs
       - name: publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
