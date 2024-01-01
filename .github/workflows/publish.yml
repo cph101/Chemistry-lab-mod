@@ -2,8 +2,8 @@ name: publish
 on:
   workflow_dispatch:
     inputs:
-      perform_build:
-        description: Build mod first
+      release_as_beta:
+        description: "Release as 'beta'"
         required: true
         type: boolean
         default: true
@@ -29,17 +29,13 @@ jobs:
         run: chmod +x ./gradlew
       - name: Setup gradle
         uses: gradle/gradle-build-action@v2
-        if: ${{ inputs.perform_build }}
       - name: Execute Gradle build
-        if: ${{ inputs.perform_build }}
         run: ./gradlew build
       - uses: actions/upload-artifact@v4
-        if: ${{ inputs.perform_build }}
         with:
           name: mod-build-files
           path: build/libs/
   publish-github:
-    if: ${{ inputs.perform_build }}
     name: 🐙 Publish to GitHub Releases
     runs-on: macos-latest
     needs: mod-build
@@ -48,6 +44,12 @@ jobs:
         uses: actions/download-artifact@v4.1.0
         with:
           path: build/
+      - name: Read value from Properties-file
+        id: mod_properties
+        uses: christian-draeger/read-properties@1.1.1
+        with:
+          path: './gradle.properties'
+          properties: 'the.key.of.a.property the.key.of.another.property'
       - name: debug
         run: |
           mv build/mod-build-files build/libs
@@ -58,4 +60,8 @@ jobs:
           files: |
             build/libs/!(*-@(dev|sources|javadoc)).jar
             build/libs/*-@(dev|sources|javadoc).jar
+          github-tag: 
+          name:
+          version:
+          version-type:
       
