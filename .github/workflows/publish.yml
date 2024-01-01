@@ -65,7 +65,7 @@ jobs:
           version: "v$mod_version-$mc_version"
           version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
         env:
-          mod_name: ${{ jobs.mod-build.steps.mod_properties.outputs.archives-base-name }}
-          mc_version: ${{ jobs.mod-build.steps.mod_properties.outputs.minecraft-version }}
-          mod_version: ${{ jobs.mod-build.steps.mod_properties.outputs.mod-version }}
+          mod_name: ${{ needs.mod-build.steps.mod_properties.outputs.archives-base-name }}
+          mc_version: ${{ needs.mod-build.steps.mod_properties.outputs.minecraft-version }}
+          mod_version: ${{ needs.mod-build.steps.mod_properties.outputs.mod-version }}
       
