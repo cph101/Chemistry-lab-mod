@@ -33,14 +33,11 @@ repositories {
 		url = 'https://jitpack.io'
 	}
 
+	maven { url "https://maven.quiltmc.org/repository/release/" }
+
 	maven {
 		name "Modrinth"
 		url "https://api.modrinth.com/maven" // idk really
-	}
-
-	maven {
-		name = "Curseforge Maven"
-		url = "https://cursemaven.com"
 	}
 
 	maven { url 'https://masa.dy.fi/maven' } // carpet mod
@@ -60,16 +57,22 @@ loom {
 }
 
 dependencies {
-	// To change the versions see the gradle.properties file
+	// Basic stuff required for modding lol
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-
-	implementation "carpet:fabric-carpet:${project.minecraft_version}-${project.carpet_core_version}"
-	modImplementation include("maven.modrinth:midnightlib:${project.midnightlib_version}")
-	modImplementation "curse.maven:qsl-634179:4102455"
 	modImplementation "org.quiltmc:quilt-loader:${project.loader_version}"
-	modImplementation "org.quiltmc:qsl:${project.qsl_version}+${project.minecraft_version}"
 
+	// Spaghetti code =(
+	modImplementation "org.quiltmc:qsl:${project.qsl_version}+${project.minecraft_version}" // Quilt Standard Libraries
+	modImplementation "org.quiltmc.quilted-fabric-api:quilted-fabric-api:${project.qfapi_version}-${project.minecraft_version}" // QFAPI
+	modImplementation "org.quiltmc.quilted-fabric-api:fabric-rendering-v1:${project.qfapi_version}-${project.minecraft_version}" // Quilted rendering
+
+	// carpet mod for testing purposes
+	implementation "carpet:fabric-carpet:${project.minecraft_version}-${project.carpet_core_version}"
+
+	// midnightlib
+	modImplementation include("maven.modrinth:midnightlib:${project.midnightlib_version}")
+	// lodestonelib
 	modImplementation include("com.github.Arathain:LodestoneLib-Quilt:${lodestone_version}")
 }
 

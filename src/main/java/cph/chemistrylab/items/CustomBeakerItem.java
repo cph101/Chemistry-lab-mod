@@ -27,4 +27,5 @@ public class CustomBeakerItem extends Item {
     protected String getOrCreateTranslationKey() {
         return beakerName;
     }
+
 }
