@@ -38,6 +38,11 @@ repositories {
 		url "https://api.modrinth.com/maven" // idk really
 	}
 
+	maven {
+		name = "Curseforge Maven"
+		url = "https://cursemaven.com"
+	}
+
 	maven { url 'https://masa.dy.fi/maven' } // carpet mod
 
 }
@@ -63,7 +68,10 @@ dependencies {
 	modImplementation "org.quiltmc:quilt-loader:quilt_loader"
 	modImplementation "org.quiltmc.quilted-fabric-api:quilted-fabric-api:quilted_fabric_api"
 	implementation "carpet:fabric-carpet:${project.minecraft_version}-${project.carpet_core_version}"
-	modImplementation include("maven.modrinth:midnightlib:${midnightlib_version}-fabric")
+	modImplementation include("maven.modrinth:midnightlib:${project.midnightlib_version}")
+	modImplementation "curse.maven:qsl-634179:4102455"
+	modImplementation "org.quiltmc:quilt-loader:${project.loader_version}"
+	modImplementation "org.quiltmc:qsl:${project.qsl_version}+${project.minecraft_version}"
 
 	modImplementation include("com.github.Arathain:LodestoneLib-Quilt:${lodestone_version}")
 }
