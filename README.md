@@ -7,3 +7,10 @@
 If you like this mod, please join my discord server by clicking the button below:
 <br><br>
 [![](https://dcbadge.vercel.app/api/server/qQYfX3sTyj?style=flat)](https://discord.gg/qQYfX3sTyj)
+
+<details>
+  <summary><h3>For developers</h3></summary>
+  If you would like to use items, blocks and other things in your own mod, you can add Chemistry lab as a gradle dependency using one of the following methods:
+
+ 
+</details>
