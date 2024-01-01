@@ -25,12 +25,6 @@ jobs:
         with:
           java-version: 17
           distribution: 'microsoft'
-      - name: Cache Gradle Meta files
-        id: cache-gradle
-        uses: actions/cache@v3
-        with:
-          path: .gradle
-          key: gradle-meta
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: Setup gradle
