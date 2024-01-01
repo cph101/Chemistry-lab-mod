@@ -60,9 +60,9 @@ jobs:
           files: |
             build/libs/!(*-@(dev|sources|javadoc)).jar
             build/libs/*-@(dev|sources|javadoc).jar
-          github-tag: "v$mod_version-$mc_version"
-          name: "$mod_name-v$mod_version-$mc_version"
-          version: "v$mod_version-$mc_version"
+          github-tag: v${{ mod_version }}-${{ mc_version }}
+          name: ${{ mod_name }}-v${{ mod_version }}-${{ mc_version }}
+          version: v${{ mod_version }}-${{ mc_version }}
           version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
         env:
           mod_name: ${{ needs.mod-build.steps.mod_properties.outputs.archives-base-name }}
