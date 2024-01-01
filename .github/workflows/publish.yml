@@ -64,7 +64,7 @@ jobs:
             build/libs/!(*-@(dev|sources|javadoc)).jar
             build/libs/*-@(dev|sources|javadoc).jar
           github-tag: "v${{ env.mod_version }}-${{ env.mc_version }}"
-          name: "${{ env.mod_name }}-v${{ env.mod_version }}-${{ env.mc_version }}"
+          name: "v${{ env.mod_version }}-${{ env.mc_version }}"
           version: "v${{ env.mod_version }}-${{ env.mc_version }}"
           version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
         env:
