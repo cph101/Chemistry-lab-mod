@@ -33,6 +33,7 @@ jobs:
           name: mod-build-files
           path: build/libs/
   publish-github:
+    name: 🐙 Publish to GitHub Releases
     runs-on: macos-latest
     needs: mod-build
     steps:
