@@ -1,6 +1,6 @@
 name: publish
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       perform_build:
         description: Whether or not the build task should be run first
