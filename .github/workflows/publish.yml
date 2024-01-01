@@ -5,8 +5,8 @@ permissions:
   packages: write
   
 jobs:
-  publish-github:
-    name: 🐙 Publish to GitHub Releases
+  mod-build:
+    name: 📦 Build mod
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
@@ -18,10 +18,32 @@ jobs:
         with:
           java-version: 17
           distribution: 'microsoft'
+      - name: Cache Gradle Meta files
+        id: cache-gradle
+        uses: actions/cache@v3
+        with:
+          path: .gradle
+          key: gradle-meta
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
         run: ./gradlew build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mod-build-files
+          path: build/libs/
+  publish-github:
+    runs-on: macos-latest
+    needs: mod-build
+    steps:
+      - name: Download build files
+        uses: actions/download-artifact@v4.1.0
+        with:
+          path: build/libs/
+      - name: debug
+        run: |
+          cd build/libs/
+          ls -a -r
       - name: publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -29,3 +51,4 @@ jobs:
           files: |
             build/libs/!(*-@(dev|sources|javadoc)).jar
             build/libs/*-@(dev|sources|javadoc).jar
+      
