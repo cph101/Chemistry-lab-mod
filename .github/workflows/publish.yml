@@ -1,5 +1,12 @@
 name: publish
-on: workflow_dispatch
+on:
+  workflow_call:
+    inputs:
+      perform_build:
+        description: Whether or not the build task should be run first
+        required: true
+        type: boolean
+        default: true
 permissions:
   contents: read
   packages: write
@@ -27,8 +34,10 @@ jobs:
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
+        if: ${{ inputs.perform_build }}
         run: ./gradlew build
       - uses: actions/upload-artifact@v4
+        if: ${{ inputs.perform_build }}
         with:
           name: mod-build-files
           path: build/libs/
@@ -43,7 +52,7 @@ jobs:
           path: build/
       - name: debug
         run: |
-          mv mod-build-files libs
+          mv build/mod-build-files build/libs
       - name: publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
