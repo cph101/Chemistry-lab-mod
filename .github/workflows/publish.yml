@@ -42,6 +42,7 @@ jobs:
           name: mod-build-files
           path: build/libs/
   publish-github:
+    if: ${{ inputs.perform_build }}
     name: 🐙 Publish to GitHub Releases
     runs-on: macos-latest
     needs: mod-build
