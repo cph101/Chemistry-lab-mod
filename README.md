@@ -23,5 +23,5 @@ dependencies {
   implementation 'com.github.cph101:Chemistry-lab-mod:v1.0.1-1.19.2'
 }
 ```
-The dependency version may be inferred from the tag name of the github release you wish to use (See [latest](https://github.com/cph101/Chemistry-lab-mod/releases/latest))
+The dependency version may be inferred from the name of the github release you wish to use (See [latest](https://github.com/cph101/Chemistry-lab-mod/releases/latest))
 </details>
