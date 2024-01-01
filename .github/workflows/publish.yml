@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       perform_build:
-        description: Whether or not the build task should be run first
+        description: Build mod first
         required: true
         type: boolean
         default: true
