@@ -8,7 +8,7 @@ on:
         type: boolean
         default: true
 permissions:
-  contents: read
+  contents: write
   packages: write
   
 jobs:
@@ -33,8 +33,10 @@ jobs:
           key: gradle-meta
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
-      - name: build
+      - name: Setup gradle
+        uses: gradle/gradle-build-action@v2
         if: ${{ inputs.perform_build }}
+      - name: Execute Gradle build
         run: ./gradlew build
       - uses: actions/upload-artifact@v4
         if: ${{ inputs.perform_build }}
