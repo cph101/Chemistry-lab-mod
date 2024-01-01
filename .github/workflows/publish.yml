@@ -15,6 +15,10 @@ jobs:
   mod-build:
     name: 📦 Build mod
     runs-on: ubuntu-latest
+    outputs:
+      archives_base_name: ${{ steps.mod_properties.outputs.archives_base_name }}
+      minecraft_version: ${{ steps.mod_properties.outputs.minecraft_version }}
+      mod_version: ${{ steps.mod_properties.outputs.mod_version }}
     steps:
       - name: checkout repository
         uses: actions/checkout@v3
@@ -45,19 +49,13 @@ jobs:
     name: 🐙 Publish to GitHub Releases
     runs-on: macos-latest
     needs: mod-build
-    env:
-      MOD_NAME: ${{ needs.mod-build.steps.mod_properties.outputs.archives_base_name }}
-      MC_VERSION: ${{ needs.mod-build.steps.mod_properties.outputs.minecraft_version }}
-      MOD_VERSION: ${{ needs.mod-build.steps.mod_properties.outputs.mod_version }}
     steps:
       - name: Download build files
         uses: actions/download-artifact@v4.1.0
         with:
           path: build/
       - name: debug
-        run: |
-          mv build/mod-build-files build/libs
-          echo '$MOD_NAME'
+        run: mv build/mod-build-files build/libs
       - name: publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -69,3 +67,7 @@ jobs:
           name: "${{ env.mod_name }}-v${{ env.mod_version }}-${{ env.mc_version }}"
           version: "v${{ env.mod_version }}-${{ env.mc_version }}"
           version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
+        env:
+          mod_name: ${{ needs.mod-build.outputs.archives_base_name }}
+          mc_version: ${{ needs.mod-build.outputs.minecraft_version }}
+          mod_version: ${{ needs.mod-build.outputs.mod_version }}
