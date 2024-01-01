@@ -35,6 +35,12 @@ jobs:
         with:
           name: mod-build-files
           path: build/libs/
+      - name: Read value from Properties-file
+        id: mod_properties
+        uses: christian-draeger/read-properties@1.1.1
+        with:
+          path: './gradle.properties'
+          properties: 'archives_base_name mod_version minecraft_version'
   publish-github:
     name: 🐙 Publish to GitHub Releases
     runs-on: macos-latest
@@ -44,12 +50,6 @@ jobs:
         uses: actions/download-artifact@v4.1.0
         with:
           path: build/
-      - name: Read value from Properties-file
-        id: mod_properties
-        uses: christian-draeger/read-properties@1.1.1
-        with:
-          path: './gradle.properties'
-          properties: 'the.key.of.a.property the.key.of.another.property'
       - name: debug
         run: |
           mv build/mod-build-files build/libs
@@ -60,8 +60,12 @@ jobs:
           files: |
             build/libs/!(*-@(dev|sources|javadoc)).jar
             build/libs/*-@(dev|sources|javadoc).jar
-          github-tag: 
-          name:
-          version:
-          version-type:
+          github-tag: "v$mod_version-$mc_version"
+          name: "$mod_name-v$mod_version-$mc_version"
+          version: "v$mod_version-$mc_version"
+          version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
+        env:
+          mod_name: ${{ jobs.mod-build.steps.mod_properties.outputs.archives-base-name }}
+          mc_version: ${{ jobs.mod-build.steps.mod_properties.outputs.minecraft-version }}
+          mod_version: ${{ jobs.mod-build.steps.mod_properties.outputs.mod-version }}
       
