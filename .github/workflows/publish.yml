@@ -56,12 +56,18 @@ jobs:
         with:
           path: './gradle.properties'
           properties: 'archives_base_name mod_version minecraft_version' # We'll use these later
+      - uses: oprypin/find-latest-tag@v1
+        with:
+          repository: ${{ github.repository }}
+          releases-only: true
+        id: previousTag
       - name: Generate Changelog
         id: gen_changelog
         uses: requarks/changelog-action@v1
         with:
           token: ${{ github.token }}
-          tag: ${{ github.ref_name }}
+          fromTag: ${{ github.ref_name }}
+          toTag: ${{ steps.previousTag.outputs.tag }}
           reverseOrder: true
           
   publish-github:
