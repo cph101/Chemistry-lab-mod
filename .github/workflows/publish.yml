@@ -46,7 +46,7 @@ jobs:
           path: './gradle.properties'
           properties: 'archives_base_name mod_version minecraft_version'
   publish-github:
-    name: 🐙 Publish to GitHub Releases
+    name: 🐙 Publish to GitHub
     runs-on: macos-latest
     needs: mod-build
     steps:
