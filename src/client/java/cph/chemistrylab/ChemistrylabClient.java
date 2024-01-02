@@ -10,6 +10,8 @@ public class ChemistrylabClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient(ModContainer mod) {
+
+		// Git testing
 		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> tintIndex == 0 ? 0x01ABDD : -1, ModItems.FILLED_BEAKER);
 		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> tintIndex == 0 ? 0x01ABDD : -1, ModItems.FILLED_TEST_TUBE);
 	}
