@@ -31,30 +31,30 @@ jobs:
       mod_version: ${{ steps.mod_properties.outputs.mod_version }}
     steps:
       - name: checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3 # This is effectively git pull
       - name: validate gradle wrapper
-        uses: gradle/wrapper-validation-action@v1
+        uses: gradle/wrapper-validation-action@v1 # Basically bug check stuff
       - name: setup JDK 17
         uses: actions/setup-java@v3
         with:
           java-version: 17
-          distribution: 'microsoft'
+          distribution: 'microsoft' # Installs java
       - name: make gradle wrapper executable
-        run: chmod +x ./gradlew
+        run: chmod +x ./gradlew # Execution workaround for unix-based systems
       - name: Setup gradle
-        uses: gradle/gradle-build-action@v2
+        uses: gradle/gradle-build-action@v2 # Speeds up build time by about 5 mins :P
       - name: Execute Gradle build
-        run: ./gradlew build
+        run: ./gradlew build # Builds the mod into a jar file
       - uses: actions/upload-artifact@v4
         with:
           name: mod-build-files
-          path: build/libs/
+          path: build/libs/ # Uploads built file as an artifact
       - name: Read value from Properties-file
         id: mod_properties
         uses: christian-draeger/read-properties@1.1.1
         with:
           path: './gradle.properties'
-          properties: 'archives_base_name mod_version minecraft_version'
+          properties: 'archives_base_name mod_version minecraft_version' # We'll use these later
   publish-github:
     name: 🐙 Publish to GitHub
     runs-on: macos-latest
@@ -100,7 +100,7 @@ jobs:
         with:
           modrinth-id: GxuvSTQj
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          files: "${{ env.mod_name }}-${{ env.mod_version }}.jar"
+          files: "build/libs/${{ env.mod_name }}-${{ env.mod_version }}.jar"
           name: "v${{ env.mod_version }}-${{ env.mc_version }}"
           loaders: "quilt"
           game-versions: "${{ env.mc_version }}"
