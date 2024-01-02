@@ -6,7 +6,7 @@ import org.quiltmc.qsl.base.api.entrypoint.client.ClientModInitializer;
 
 public class ChemistrylabClient implements ClientModInitializer {
 
-	// Insert Color getter function here
+	// Insert color getting function here
 
 	@Override
 	public void onInitializeClient(ModContainer mod) {
