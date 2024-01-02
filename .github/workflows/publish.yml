@@ -69,6 +69,14 @@ jobs:
           fromTag: ${{ github.ref_name }}
           toTag: ${{ steps.previousTag.outputs.tag }}
           reverseOrder: true
+          useGitmojis: false
+          includeRefIssues: false
+      - name: Commit CHANGELOG.md
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit_message: "docs: Update changelog for v${{ steps.mod_properties.outputs.mod_version }}-${{ steps.mod_properties.outputs.minecraft_version }}"
+          file_pattern: CHANGELOG.md
           
   publish-github:
     name: 🐙 Publish to GitHub
