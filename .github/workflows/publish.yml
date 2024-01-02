@@ -3,7 +3,17 @@ on:
   workflow_dispatch:
     inputs:
       release_as_beta:
-        description: "Release as 'beta'"
+        description: "Mark as pre-release"
+        required: true
+        type: boolean
+        default: true
+      publish_github:
+        description: "Publish to GitHub"
+        required: true
+        type: boolean
+        default: true
+      publish_modrinth:
+        description: "Publish to Modrinth"
         required: true
         type: boolean
         default: true
@@ -48,6 +58,7 @@ jobs:
   publish-github:
     name: 🐙 Publish to GitHub
     runs-on: macos-latest
+    if: inputs.publish_github
     needs: mod-build
     steps:
       - name: Download build files
@@ -64,6 +75,34 @@ jobs:
             build/libs/!(*-@(dev|sources|javadoc)).jar
             build/libs/*-@(dev|sources|javadoc).jar
           github-tag: "v${{ env.mod_version }}-${{ env.mc_version }}"
+          name: "v${{ env.mod_version }}-${{ env.mc_version }}"
+          version: "v${{ env.mod_version }}-${{ env.mc_version }}"
+          version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
+        env:
+          mod_name: ${{ needs.mod-build.outputs.archives_base_name }}
+          mc_version: ${{ needs.mod-build.outputs.minecraft_version }}
+          mod_version: ${{ needs.mod-build.outputs.mod_version }}
+          
+  publish-modrinth:
+      name: 🟢 Publish to Modrinth
+      runs-on: macos-latest
+      if: inputs.publish_modrinth
+      needs: mod-build
+      steps:
+      - name: Download build files
+        uses: actions/download-artifact@v4.1.0
+        with:
+          path: build/
+      - name: debug
+        run: mv build/mod-build-files build/libs
+      - name: publish
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: GxuvSTQj
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: |
+            build/libs/!(*-@(dev|sources|javadoc)).jar
+            build/libs/*-@(dev|sources|javadoc).jar
           name: "v${{ env.mod_version }}-${{ env.mc_version }}"
           version: "v${{ env.mod_version }}-${{ env.mc_version }}"
           version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
