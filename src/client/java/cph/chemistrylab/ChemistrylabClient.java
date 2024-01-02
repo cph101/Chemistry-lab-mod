@@ -6,6 +6,8 @@ import org.quiltmc.qsl.base.api.entrypoint.client.ClientModInitializer;
 
 public class ChemistrylabClient implements ClientModInitializer {
 
+	// Insert Color getter function here
+
 	@Override
 	public void onInitializeClient(ModContainer mod) {
 		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> tintIndex == 0 ? 0x01ABDD : -1, ModItems.FILLED_BEAKER);
