@@ -29,6 +29,7 @@ jobs:
       archives_base_name: ${{ steps.mod_properties.outputs.archives_base_name }}
       minecraft_version: ${{ steps.mod_properties.outputs.minecraft_version }}
       mod_version: ${{ steps.mod_properties.outputs.mod_version }}
+      changelog_body: ${{ steps.gen_changelog.outputs.changes }}
     steps:
       - name: checkout repository
         uses: actions/checkout@v3 # This is effectively git pull
@@ -55,6 +56,14 @@ jobs:
         with:
           path: './gradle.properties'
           properties: 'archives_base_name mod_version minecraft_version' # We'll use these later
+      - name: Generate Changelog
+        id: gen_changelog
+        uses: requarks/changelog-action@v1
+        with:
+          token: ${{ github.token }}
+          fromTag: "v${{ env.mod_version }}-${{ env.mc_version }}"
+          reverseOrder: true
+          
   publish-github:
     name: 🐙 Publish to GitHub
     runs-on: macos-latest
@@ -78,6 +87,7 @@ jobs:
           name: "v${{ env.mod_version }}-${{ env.mc_version }}"
           version: "v${{ env.mod_version }}-${{ env.mc_version }}"
           version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
+          changelog: ${{ needs.mod-build.outputs.changelog_body }}
         env:
           mod_name: ${{ needs.mod-build.outputs.archives_base_name }}
           mc_version: ${{ needs.mod-build.outputs.minecraft_version }}
@@ -106,6 +116,7 @@ jobs:
           game-versions: "${{ env.mc_version }}"
           version: "v${{ env.mod_version }}-${{ env.mc_version }}"
           version-type: ${{ inputs.release_as_beta && 'beta' || 'release' }}
+          changelog: ${{ needs.mod-build.outputs.changelog_body }}
         env:
           mod_name: ${{ needs.mod-build.outputs.archives_base_name }}
           mc_version: ${{ needs.mod-build.outputs.minecraft_version }}
